@@ -7,6 +7,9 @@ import { userRoles } from './user.constant'
 
 const userSchema = new Schema<IUser, UserModel>(
   {
+    name: {
+      type: String,
+    },
     email: {
       type: String,
       unique: true,
@@ -33,10 +36,10 @@ const userSchema = new Schema<IUser, UserModel>(
 // isUserExist by phoneNumber
 userSchema.statics.isUserExist = async function (
   email: string,
-): Promise<Pick<IUser, 'password' | '_id' | 'role' | 'email'> | null> {
+): Promise<Pick<IUser, 'password' | '_id' | 'role' | 'email' | 'name'> | null> {
   return await this.findOne(
     { email },
-    { password: 1, role: 1, email: 1 },
+    { password: 1, role: 1, email: 1, name: 1 },
   ).lean()
 }
 

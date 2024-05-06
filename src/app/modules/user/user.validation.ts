@@ -5,6 +5,9 @@ const createUserZodSchema = z.object({
     password: z.string({
       required_error: 'password is required!',
     }),
+    name: z.string({
+      required_error: 'Name is required!',
+    }),
 
     email: z.string({
       required_error: 'email is required!',
@@ -22,6 +25,12 @@ const updateUserZodSchema = z.object({
     password: z
       .string({
         required_error: 'password is required!',
+      })
+      .optional(),
+
+    name: z
+      .string({
+        required_error: 'Name is required!',
       })
       .optional(),
 
