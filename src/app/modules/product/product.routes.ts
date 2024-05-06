@@ -21,4 +21,4 @@ router.get('/', ProductController.getAllProducts)
 // router.post('/comment/:id', ProductController.createComment)
 // router.get('/comment/:id', ProductController.getComment)
 
-export const BookRoutes = router
+export const ProductRoutes = router

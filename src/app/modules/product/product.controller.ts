@@ -13,6 +13,7 @@ import { ProductService } from './product.service'
 const createProduct: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const productData = req.body
+    console.log(productData)
     const result = await ProductService.createProduct(productData)
 
     sendResponse<IProduct>(res, {
