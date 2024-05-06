@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/.02ceb670478906ed1073a645d0c5111c894fe628-audit.json",
+    "files": [
+        {
+            "date": 1715012829468,
+            "name": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/2024-06-05-22-success.log",
+            "hash": "0e31c5067fc2af5c234770ffe11242adf0a81e13dedf0a4e10374b2aeb7e8e36"
+        },
+        {
+            "date": 1715019410708,
+            "name": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/2024-07-05-00-success.log",
+            "hash": "611493d2e5a43357be5f61de8b72ec67175bf6937dfaf7f6f7ddfe492ba94ffd"
+        },
+        {
+            "date": 1715022350649,
+            "name": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/2024-07-05-01-success.log",
+            "hash": "4154022788b9bcc50cc96e2c1564f23aa79f8675f932569a63d65381853a80f4"
+        },
+        {
+            "date": 1715025719595,
+            "name": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/2024-07-05-02-success.log",
+            "hash": "1ced8d27b296a5aa1ebe5b3b9900d749418ecf7f4ee3c9f2b537b8b030b574d6"
+        },
+        {
+            "date": 1715029229014,
+            "name": "/Users/raihan/Desktop/My Files/Programming/Assignment/pc-builder-server/logs/winston/sueccess/2024-07-05-03-success.log",
+            "hash": "36132126720783d3a5625e94737ba060309ce344daf960635b2854a36a788704"
+        }
+    ],
+    "hashType": "sha256"
+}

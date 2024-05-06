@@ -1,15 +1,15 @@
 export const stocks = ['In Stock', 'Out of stock']
 
-export const productFilterableFields = [
+export const productSearchableFields = [
   'searchTerm',
-  'author',
-  'title',
-  'publicationDate',
+  'name',
+  'category',
+  'featured',
 ]
 
-export const productSearchableFields = [
-  'phoneNumber',
-  'author',
-  'title',
-  'publicationDate',
+export const productFilterableFields = [
+  'searchTerm',
+  'name',
+  'category',
+  'featured',
 ]

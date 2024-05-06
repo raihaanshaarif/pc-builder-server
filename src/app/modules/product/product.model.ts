@@ -39,6 +39,10 @@ export const ProductSchema = new Schema<IProduct, ProductModel>(
     reviews: {
       comments: [{ type: String }],
     },
+    featured: {
+      type: String,
+      default: 'false',
+    },
   },
   {
     timestamps: true,

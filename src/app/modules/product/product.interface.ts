@@ -14,10 +14,14 @@ export type IProduct = {
   reviews: Array<{
     text: string
   }>
+  featured: string
 }
 
 export type IProductFilters = {
   searchTerm?: string
+  name?: string
+  category?: string
+  featured?: string
 }
 
 export type ProductModel = Model<IProduct, Record<string, unknown>>

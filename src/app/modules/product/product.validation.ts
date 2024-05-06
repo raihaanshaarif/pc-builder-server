@@ -26,6 +26,7 @@ const createProductZodSchema = z.object({
     individualRating: z.number().optional(),
     averageRating: z.number().optional(),
     reviews: ReviewSchema.optional(),
+    featured: z.string().optional(),
     createdAt: z.date().optional(), // If timestamps are needed
     updatedAt: z.date().optional(), // If timestamps are needed
   }),
@@ -44,6 +45,7 @@ const UpdateProductZodSchema = z.object({
     individualRating: z.number().optional(),
     averageRating: z.number().optional(),
     reviews: ReviewUpdateSchema.optional(),
+    featured: z.string().optional(),
   }),
 })
 export const ProductValidation = {
