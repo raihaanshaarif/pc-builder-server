@@ -44,7 +44,7 @@ const getAllProducts = async (
     andConditions.push({ $and: filterConditions })
   }
 
-  const sortConditions = {}
+  const sortConditions: Record<string, any> = {}
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder
   }
